@@ -1,0 +1,17 @@
+img {
+	width: 30%;
+	margin: calc(
+		10%/6
+	); /*margin: 1.6666% (10% maradt a helyekből, ha 3kép*30% ezáltal
+    el kell osztanunk a 10%-ot 6 db marginnal (képenként 2, bal/jobb oldal)*/
+}
+
+nav {
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	margin-left: calc(10%/6);
+	padding: 1.2em 0em;
+	font-family: 'Redressed', cursive;
+	font-size: 1.5em;
+}
